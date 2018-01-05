@@ -1,5 +1,10 @@
+# CMake
 CMakeFiles/
-game.dir/
-Debug/
+
+# Artifacts
+debug/
 build/
+
+# Ninja
 .ninja_log
+.ninja_deps
