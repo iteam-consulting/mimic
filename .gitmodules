@@ -1,0 +1,3 @@
+[submodule ".vscode"]
+	path = .vscode
+	url = git@github.com:iteam-consulting/vsc-settings-cmake.git
