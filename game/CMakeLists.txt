@@ -1,0 +1,2 @@
+
+add_executable(game game.cpp)
