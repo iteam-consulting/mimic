@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 3.10.0)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(mimic VERSION 0.0.1 LANGUAGES CXX)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build)
+include_directories(include)
 
-add_subdirectory(game)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+add_subdirectory(googletest)
+
+add_subdirectory(common)

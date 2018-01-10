@@ -1,10 +1,23 @@
 # CMake
 CMakeFiles/
+CMakeCache.txt
+*.cmake
 
 # Artifacts
 debug/
 build/
+*.dir/
+Win32/
 
 # Ninja
 .ninja_log
 .ninja_deps
+
+# Generated Files
+*.vcxproj
+*.vcxproj.filters
+*.pc
+
+# IDE
+.vs/
+*.sln
