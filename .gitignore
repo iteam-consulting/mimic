@@ -21,3 +21,8 @@ Win32/
 # IDE
 .vs/
 *.sln
+.vscode/
+
+# Logs
+*.tlog
+*.log
